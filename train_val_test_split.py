@@ -22,7 +22,7 @@ file_num = len(file_list)
 print('Total images: %d' % file_num)
 
 # Determine number of files to move to each folder
-train_percent = 0.75  # 75% of the files go to train
+train_percent = 0.70  # 70% of the files go to train
 val_percent = 0.15 # 15% go to validation
 test_percent = 0.15 # 15% go to test
 train_num = int(file_num*train_percent)
